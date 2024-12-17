@@ -1,5 +1,4 @@
 import './App.css';
-import Biebs from './assepts/biebs.webp'
 import GerenciarDados from './components/GerenciarDados';
 import Listas from './components/Listas';
 import Condicional from './components/Condicional';
@@ -12,9 +11,7 @@ function App() {
       <h1>Justin Bieber</h1>
       {/*publico*/}
       <img src="/jb.jpeg" alt="Justin"/>
-
-      {/*assets*/}
-        <img src={Biebs} alt="Bieber"/>
+      
         {/*Gerecnciar*/}
         <GerenciarDados/>
         <Listas/>
